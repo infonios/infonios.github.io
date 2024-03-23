@@ -1,0 +1,159 @@
+.galleta {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(/pag/imag/galletas.jpg);
+    background-size: 450px;
+    background-position: -150px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.banperma {
+    display: none;
+    border-radius: 10px;
+    height: 100%;
+    z-index: 10000000000000000000000;
+    margin: 0 auto;
+    position: fixed;
+    background-color: #dfe6e9a7;
+    backdrop-filter: blur(20px);
+}
+
+.galleta:active{
+    background-size: 445px;
+    background-position: -150px;
+    width: 140px;
+    height: 140px;
+}
+
+body{
+    font-size: 38px;
+    text-align: center;
+    background-color: #b2bec3;
+}
+
+.resultado {
+    margin-top: auto;
+    text-align: center;
+}
+
+.fondo {
+    box-shadow: 0 0 0 #dfe6e9;
+    margin: 0 auto;
+    background-color: #dfe6e9;
+    border: none;
+    border-radius: 20px;
+    height: 400px;
+    width: 400px;
+}
+
+.botones button{
+    background-color: brown;
+    border: none;
+    border-radius: 18px;
+    height: 38px;
+    width: 350px;
+    color: #dfe6e9;
+    cursor: pointer;
+}
+
+.todo {
+    margin-top: 200px;
+}
+
+
+
+.boton{
+    text-align: center;
+}
+
+a{
+    margin-top: 500px;
+    text-decoration: none;
+    color: black;
+}
+
+.volver {
+    text-align: center;
+    font-size: 28px;
+    background-color: #dfe6e9;
+    margin-top: 18px;
+    height: 50px;
+    width: 140px;
+    border-radius: 10px;
+}
+
+.reiniciar {
+    font-size: 28px;
+    background-color: #dfe6e9;
+    margin-top: -50px;
+    margin-left: 158px;
+    height: 50px;
+    width: 170px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.botonesa {
+    background-color: #dfe6e9;
+    height: 50px;
+    width: 170px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.botones-derecha{
+    margin-left: 80%;
+    margin-top: -400px;
+    background-color: #dfe6e9;
+    border: none;
+    border-radius: 10px;
+    height: 10em;
+    
+}
+
+.mejoras-derecha {
+    margin-left: 1160px;
+    margin-top: -640px;
+    background-color: #dfe6e9;
+    border: none;
+    border-radius: 10px;
+    height: 200px;
+    width: 600px;
+}
+
+.mejoras-derecha button {
+    background-color: brown;
+    border: none;
+    border-radius: 18px;
+    height: 38px;
+    width: 300px;
+    color: #dfe6e9;
+    cursor: pointer;
+}
+
+.aleatorio {
+    background-color: yellow;
+    margin-top: -100px;
+    margin-left: 500px;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 50px;
+    border: black 5px solid;
+}
+
+
+
+@media (max-width: 768px) {
+    .encabezado{
+        justify-content: center; /* Centra los elementos horizontalmente */
+    }
+
+    .botone{
+        width: 100%; /* Los elementos ocuparán todo el ancho en pantallas más pequeñas */
+        margin-left: 10px;
+    }
+}
+

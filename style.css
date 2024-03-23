@@ -1,0 +1,401 @@
+
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+body {
+    margin-top: 28px;
+    font-family:'Courier New', Courier, monospace;
+    background-image: url(/pag/imag/FONDO.avif); 
+    font-size: 18px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fija el fondo */
+}
+
+a {
+    /* color: black; */
+    color: whitesmoke;
+}
+
+
+
+
+.title {
+    width: 0;
+    white-space: nowrap;
+    animation: escribir 4s steps(40, end) forwards;
+    box-shadow: 1em 2em 1em rgba(175, 175, 175, 0.678);
+    border: 10px solid rgba(255, 255, 255, 0.17);
+    border-radius: 15px;
+    /* color: black; */
+    color: whitesmoke;
+    text-align: center;
+    background-color: rgba(114, 109, 109, 0.358);
+}
+
+.control {
+    backdrop-filter: blur(10px);
+    text-decoration: none;
+    display: none;
+    z-index: 100;
+    position: fixed;
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgba(255, 255, 255, 0.484);
+    color: whitesmoke;
+    margin-top: -2008px;
+    margin-left: 70%;
+    width: 400px;
+    height: 100px;
+    border: 5px solid rgba(255, 255, 255, 0.476);
+    border-radius: 10px;
+}
+
+.tupagina {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.legueoutdesspan {
+    margin-left: -40px;
+    position: absolute;
+    margin-top: -35px;
+    cursor: pointer;
+    color: whitesmoke;
+    font-size: 18px;
+    
+}
+
+.legueoutdes {
+    color: whitesmoke;
+}
+
+.bi-box-arrow-in-left {
+    
+    cursor: pointer;
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+@keyframes escribir {
+    0% {
+      width: 20%;
+    }
+    100% {
+      width: 97%;
+    }
+} 
+
+.pags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pagina1, .pagina2, .pagina3, .pagina4, .pagina5, .pagina6, .pagina7, .pagina8{
+    box-shadow: 1em 1em 1em rgba(175, 175, 175, 0.678);
+    font-size: 26px;
+    border: 4px solid rgba(114, 109, 109, 0.282);
+    border-radius: 10px;
+    margin-top: 35px;
+    position: relative; /* Cambié 'absolute' a 'relative' para que los elementos fluyan en el contenedor */
+    z-index: 1;
+    width: calc(48% - 10px); /* Ancho inicial para dos elementos en una fila con un margen entre ellos */
+    margin-right: 10px; /* Espacio entre elementos */
+    text-align: center;
+    justify-content: center; /* No es necesario, ya que no es un contenedor flex */
+    align-items: center; /* No es necesario, ya que no es un contenedor flex */
+}
+
+@media (max-width: 768px) {
+    .pags, body{
+        justify-content: center; /* Centra los elementos horizontalmente */
+    }
+
+    .pagina1, .pagina2, .pagina3, .pagina4, .pagina5, #mostrarVentana, .pagina6, .pagina7, .pagina8, .loguearte{
+        width: 100%; /* Los elementos ocuparán todo el ancho en pantallas más pequeñas */
+        margin-right: 0; /* No hay espacio entre elementos */
+        margin-bottom: 20px; /* Espacio entre filas de elementos */
+    }
+}
+
+.comentario {
+    
+    margin: 0 auto;
+    height: 25em;
+    width: 15em;
+    margin-top: 5em;
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgba(255, 255, 255, 0.267);
+    border: rgb(255, 255, 255, 0.267) 10px solid;
+    border-radius: 20px;
+    justify-self: center;
+}
+.cosascont{
+    margin-top: 15px;
+    border: 3px solid rgba(255, 255, 255, 0.267);
+    border-radius: 10px;
+}
+.titulo_com {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.my {
+    margin: 0 auto;
+    text-align: center;
+    color: whitesmoke;
+
+}
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    border-top: 1px solid #ffffff;
+    padding: 8px;
+}
+.aprendienod {
+    cursor: crosshair;
+    margin-top: 3em;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    width:30em;
+}
+@media (max-width: 768px) {
+    table{
+        justify-content: center; /* Centra los elementos horizontalmente */
+    }
+
+    td, .aprendienod, table{
+        width: 100%; /* Los elementos ocuparán todo el ancho en pantallas más pequeñas */
+        margin-right: 0; /* No hay espacio entre elementos */
+        margin-bottom: 20px; /* Espacio entre filas de elementos */
+    }
+}
+
+.discord {
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.377);
+    color: whitesmoke;
+    margin-top: -28px;
+    margin-left: 38px;
+    width: 400px;
+    height: 100px;
+    border: 5px solid rgba(255, 255, 255, 0.377);
+    border-radius: 10px;
+}
+
+.discordimg {
+    margin-left: 290px;
+    margin-top: -45px;
+}
+
+
+
+
+
+.distext {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+/* .arriva {
+    position: fixed;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.583);
+    border: 10px transparent rgba(255, 255, 255, 0.583);
+    border-radius: 10px;
+    width: 400px;
+    height: 50px;
+    left: 700px;
+    top: 10px;
+    display: hidden;
+    
+}
+.textoss {
+    text-decoration: none;
+    display: hidden;
+    
+}
+@media (max-width: 768px) {
+    .arriva {
+        justify-content: center; /* Centra los elementos horizontalmente */
+    /* }
+
+    .textoss{
+     left: 10px;
+    }
+} */ 
+
+/*#custom-cursor {
+    position: fixed;
+    width: 40px; 
+    height: 40px; 
+    background-image: url(''); 
+    background-size: cover;
+    pointer-events: none; 
+    z-index: 9999999999999999999999999; 
+ }  
+*/
+
+.fondoboton {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.updates {
+    display: none;
+    border-color: #e2e2e2b7;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 3000000000;
+    width: 50%;
+    height: 50%;
+    backdrop-filter: blur(20px);
+    background-color: #eaeaeaa0;
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+.ventana-modal {
+    
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.bienvenida button {
+    background-color: rgb(0, 183, 255);
+    
+    border-radius: 10px;
+    color: white;
+    border: 1px solid yellow;
+}
+
+.bienvenida {
+    z-index: 10;
+    color: whitesmoke;
+    background-color: #363434;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    
+}
+
+button {
+    cursor: pointer;
+    background-color: rgb(0, 183, 255);
+    font-size: 25px;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid yellow;
+
+}
+
+.reg {
+    display: none;
+    z-index: 10;
+    color: rgb(255, 255, 255);
+    background-color: #363434;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+
+
+.tupagina {
+    margin-top: 10px;
+}
+
+.loguearte {
+    backdrop-filter: blur(10px);
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 3;
+    position: fixed;
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgba(255, 255, 255, 0.484);
+    color: whitesmoke;
+    margin-top: -2008px;
+    margin-left: 38px;
+    width: 400px;
+    height: 100px;
+    border: 5px solid rgba(255, 255, 255, 0.476);
+    border-radius: 10px;
+}
+
+.ventana-contenido {
+    
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+
+.cerrar {
+    
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.cerrar:hover {
+    
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.legueoutdes {
+
+    margin-left: -120px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+
+.abajo {
+    height: 200px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.acercad {
+    margin-left: 28px;
+}
+
+.acercad span {
+    font-size: 14px;
+}
+
+

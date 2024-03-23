@@ -1,0 +1,34 @@
+body {
+    background-image: url(/pag/imag/FONDO.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    
+}
+
+.avatar img {
+    border-radius: 50%;
+}
+
+.personaje1 {
+    display: block;
+}
+
+.personaje2 , .personaje3,.personaje4 {
+    display: none;
+}
+
+
+
+.personaje {
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: rgb(141, 58, 219);
+    width: 900px;
+}
+
+
+
